@@ -70,6 +70,13 @@ export default function Home({ navigation }) {
             >
               <Text style={styles.text}>Ranking</Text>
             </Pressable>
+            <Pressable
+              style={styles.button}
+              title="Open liquid animation"
+              onPress={() => navigation.navigate("Liquid animation")}
+            >
+              <Text style={styles.text}>Liquid</Text>
+            </Pressable>
           </View>
         </View>
       </View>
